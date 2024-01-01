@@ -1,0 +1,33 @@
+# .gitignore
+
+# Ignore build directory
+/build/
+
+# Ignore Flatpak build artifacts
+/.flatpak-builder/
+
+# Ignore Node.js modules (if you're using Node.js)
+/node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide/
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
